@@ -1,3 +1,6 @@
+// I will publish at a later stage ...
+// The code I am using on my Google Colab Notebook //
+
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.models import Sequential, Model
@@ -5,3 +8,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 from google.colab import files
+
+
+//... To be continued ... // 
