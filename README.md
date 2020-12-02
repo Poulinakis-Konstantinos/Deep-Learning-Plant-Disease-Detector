@@ -7,9 +7,15 @@ a portable disease detection device .
  using Keras Applications. Language of choice is Python and Raspberry is running on Raspberry Pi OS (Linux distro).
  
  I have written scripts for :
-        \newline dataset preparation
+ 
+        dataset preparation
+        
         model compiling 
+        
         model training 
+        
         model saving-loading
+        
         model automated testing on images I have picked . 
+        
  All based on official site manuals.
