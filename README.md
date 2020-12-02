@@ -1,4 +1,5 @@
 # Leaf-Disease-ML-detector-
+ ** Project is Under Development **
 Neural Network Model , based on transfer learning , able to detect diseases on plant's leaf images . 
 The inference of the networks will be deployed on a RaspBerry Pi 4B (2gb Ram) equipped with a camera to create 
 a portable disease detection device .   
