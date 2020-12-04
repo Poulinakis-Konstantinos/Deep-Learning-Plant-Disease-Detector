@@ -25,6 +25,7 @@ Raspberry_healthy
 Soybean_healthy
 Squash_Powdery_mildew
 Strawberry_Leaf_scorch
+Strawberry_Healthy
 Tomato_Bacterial_spot
 Tomato_Early_blight
 Tomato_Late_blight
