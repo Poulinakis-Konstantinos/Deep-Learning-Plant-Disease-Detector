@@ -5,8 +5,12 @@
   The inference of the networks will be deployed on a RaspBerry Pi 4B (2gb Ram) equipped with a camera to create 
   a portable disease detection device .   
 
+
+
    I have trained my DL models on Google Colab platform . I design my Networks relying on Transfer Learning using Keras and Tensorflow frameworks. 
-  Language of choice is Python. 
+  Language of choice is Python.  I am expirementing with two types of models , a light one based on MobileNetV2 and a heavier one based on Densenet169
+
+
 
    My inference device is Raspberry 4B running on Raspberry Pi OS (Linux distro). I have remotely connected ( check out my other  repo-guide) to the Pi
   and written Python scripts for taking snapshots through the camera , loading image on my model , running inference and providing
