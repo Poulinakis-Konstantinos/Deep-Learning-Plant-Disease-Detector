@@ -8,29 +8,13 @@
 
 
    I have trained my DL models on Google Colab platform . I design my Networks relying on Transfer Learning using Keras and Tensorflow frameworks. 
-  Language of choice is Python.  I am expirementing with two types of models , a light one based on MobileNetV2 and a heavier one based on Densenet169
+  Language of choice is Python.  I am expirementing with two pretrained models, MobileNetV2 and Densenet169.
 
 
 
-   My inference device is Raspberry 4B running on Raspberry Pi OS (Linux distro). I have remotely connected ( check out my other  repo-guide) to the Pi
-  and written Python scripts for taking snapshots through the camera , loading image on my model , running inference and providing
-  Decision-Confidence level-Elapsed Time .  
+   My edge inference device is a Raspberry 4B, running on Raspberry Pi OS (Linux distro). I have remotely connected  to the Pi ( check out this [guide](https://github.com/Poulinakis-Konstantinos/Headless-RaspBerry-Pi-4b)
+  and written Python scripts for taking snapshots through the camera , loading image on my model , running inference and printing out Prediction/Confidence Level/Elapsed Time.
  
  
- 
-   Dataset used : I primarily used this kaggle dataset https://www.kaggle.com/vipoooool/new-plant-diseases-dataset and subsequently merged it with another 
-   dataset for weed vs plant detection .
+   Dataset used : I used this kaggle dataset https://www.kaggle.com/vipoooool/new-plant-diseases-dataset .
    
- I have written scripts for :
- 
-        dataset preparation
-        
-        model compiling 
-        
-        model training 
-        
-        model saving-loading
-        
-        model automated testing on images I have picked . 
-        
- All based on official site manuals.
