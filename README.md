@@ -1,8 +1,8 @@
 # Leaf-Disease-ML-detector-
- ** Project is Under Development **
  
-   Deep Neural Network Models , based on transfer learning , able to detect diseases on plant's leaf images . 
-  The inference of the networks will be deployed on a RaspBerry Pi 4B (2gb Ram) equipped with a camera to create 
+   Deep Neural Network Models , based on transfer learning , able to detect diseases on plant's leaf images . The models are trained to classify 38 different classes plant/disease. Models have been converted to Tensorflow Lite equivalent and have been quantized to optimize performance for portable devices (microcomputers,microcontrollers,etc..) .
+   
+  Models' inference are deployed on a RaspBerry Pi 4B (2gb Ram) equipped with a camera to create 
   a portable disease detection device .   
 
 
